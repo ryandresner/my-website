@@ -1,6 +1,14 @@
+:root{--beige:rgb(245, 245, 219) }
+
 main {
     text-align: center;
 }
+
+main#text>p {
+    color: var(--beige);
+}
+
+
 
 body {
     font-family: Arial, sans-serif;
@@ -23,12 +31,8 @@ body {
     background-repeat: no-repeat;
 }
 
-p {
-    color: rgb(245, 245, 219);
-}
-
-.links {
-    color: rgb(245, 245, 219);
+ul.links {
+    color: var(--beige);
     width: 3em;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +42,7 @@ p {
 }
 
 a {
-    color: rgb(245, 245, 219);
+    color: var(--beige);
 }
 
 h2 {
