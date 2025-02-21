@@ -1,0 +1,54 @@
+main {
+    text-align: center;
+}
+
+main#text>p {
+    color: var(--beige);
+}
+
+ul.links {
+    color: var(--beige);
+    font-size: 2em;
+    width: 5em;
+    text-align: center;
+    list-style-position: outside;
+    padding-left: 0 auto;
+    margin: auto;
+    margin-top: 1%;
+}
+
+.link {
+    color: var(--beige);
+}
+
+a {
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-left: auto;
+}
+
+a:hover{
+    color: rgb(32, 107, 48);
+}
+
+h2 {
+    width: 1vmin;
+    min-width: 30vw;
+    max-width: 2vmax;
+    background: var(--gradient);
+    padding: 1vh;
+    margin-top: 1%;
+    color: rgb(215, 190, 244);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vmin;
+    font-stretch: condensed;
+    border: .2em solid #292727;
+    margin: 0 auto;
+}
+
+main > p{
+ margin: 5% 20% 0% 20%;
+    font-size: 2rem;
+
+}
