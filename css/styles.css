@@ -3,12 +3,13 @@
     --gradient: linear-gradient(110deg, rgb(21, 19, 31), rgb(98, 53, 124));
     --black: #000000;
     --grey: #212020;
-    --green: #206b30;
+    --green: #2f7d40;
+    --yellow: #c5c503;
 }
 
 html,
 body {
-    font-family: Arial, sans-serif;
+    font-family: Helvetica, sans-serif;
     width: 100%;
     margin: 0 auto;
     background-size: cover;
@@ -101,7 +102,7 @@ body {
 
 #nav_menu ul li a:hover {
     background-color: rgb(47, 14, 94);
-    color: yellow;
+    color: var(--yellow);
     z-index: 102;
 
 }
