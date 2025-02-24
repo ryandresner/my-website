@@ -15,13 +15,14 @@ body {
     margin: 0 auto;
     background-size: cover;
     position: relative;
-    color: var(--beige)
+    color: var(--beige);
+    scroll-behavior: smooth;
 }
 
 #box {
-    width: 90%;
-    margin: 0% 5% 1% 5%;
+    width: 100%;
     height: 30vh;
+    margin-bottom: 2%;
     overflow: hidden;
     background-image: url(../img/bannerback.jpg);
     background-size: 40em;
@@ -67,19 +68,20 @@ body {
 }
 
 #nav_menu {
-    max-width: 90%;
-    margin-left: 5%;
-    margin-right: 5% left: 0;
+    position: sticky;
     top: 0;
     width: 90%;
+    margin-left: 5%;
     background-color: var(--grey);
-    height: 2%;
+    height: fit-content;
+    z-index: 1000;
 }
+
 
 #nav_menu ul {
     list-style-type: none;
     margin: auto;
-    padding: auto;
+    padding: .1em;
 }
 
 #nav_menu ul li {
@@ -99,7 +101,7 @@ body {
     font-weight: bold;
     border-right: .2em solid rgb(18, 14, 14);
     z-index: 100;
-} 
+}
 
 #nav_menu ul li a:hover {
     background-color: rgb(47, 14, 94);
@@ -123,51 +125,55 @@ body {
     background-color: var(--black);
 }
 
-@media screen and (max-width: 1165px){
-    #box{ height: 300px;}
-    
+@media screen and (max-width: 1165px) {
+    #box {
+        height: 300px;
+    }
+
 }
 
 
 @media screen and (max-width:720px) {
-    #nav_menu ul{
+   
+    #nav_menu ul {
         font-size: 0.6rem;
-        padding: 0.2em;
-        
+        height: auto;
+
     }
 
     #nav_menu ul li a {
         padding: 0.2em;
     }
 
-    #box{
+    #box {
         all: unset;
         display: block;
         height: 200px;
         background-color: var(--grey);
         margin-bottom: 3%;
+        margin-top: 0%;
 
     }
 
-    #banner{
+    #banner {
         background-image: url(../img/bannermedium.jpg);
     }
 
 }
 
 @media screen and (max-width:590px) {
-    #nav_menu ul{
+    #nav_menu ul {
         padding: 0.3em;
-        width:30%;
-        margin-left:1%;
+        width: 30%;
+        margin-left: 1%;
     }
 
     #nav_menu ul li a {
         padding: 0.05em;
     }
 
-    #box{
-        all:unset;
+    #box {
+        all: unset;
         display: block;
         height: 100px;
         margin-bottom: 3%;
