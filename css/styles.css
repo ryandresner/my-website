@@ -103,7 +103,7 @@ body {
 #nav_menu ul li a:hover {
     background-color: rgb(47, 14, 94);
     color: var(--yellow);
-    z-index: 102;
+    z-index: 101;
 
 }
 

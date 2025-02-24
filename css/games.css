@@ -66,15 +66,15 @@ h3 a:hover {
 }
 
 .enshrouded {
-    background-image: url('../img/enshrouded.png');
+    background-image: url('/img/enshrouded.png');
 }
 
 .minecraft {
-    background-image: url('../img/minecraft.jpg');
+    background-image: url('/img/minecraft.jpg');
 }
 
 .palworld {
-    background-image: url('../img/palworld.png');
+    background-image: url('/img/palworld.png');
 }
 
 @media (max-width: 600px) {
