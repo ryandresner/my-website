@@ -2,12 +2,12 @@ main {
     text-align: center;
 }
 
-main#text>p {
+main#text > p {
     width: 45%;
     margin: 0 auto;
     margin-top: 2%;
     color: var(--beige);
-    font-size: max(2vmax, 16px);
+    font-size: 3.5vmin;
 }
 
 .link {

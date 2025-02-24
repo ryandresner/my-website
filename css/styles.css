@@ -23,7 +23,7 @@ body {
     margin: 0% 5% 1% 5%;
     height: 30vh;
     overflow: hidden;
-    background-image: url(../img/bannerback.jpg);
+    background-image: url(/img/bannerback.jpg);
     background-size: 40em;
     z-index: 11;
 }
@@ -31,7 +31,7 @@ body {
 #banner {
     width: 100%;
     height: 100%;
-    background-image: url(../img/banner.jpg);
+    background-image: url(/img/banner.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -39,7 +39,7 @@ body {
 }
 
 body {
-    background: url(../img/background.jpg);
+    background: url(/img/background.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: repeat-y;
@@ -95,7 +95,7 @@ body {
     text-decoration: none;
     background: var(--gradient);
     color: #d6c4c4;
-    font-size: 1.5em;
+    font-size: max(1.5em, 14px);
     font-weight: bold;
     border-right: .2em solid rgb(18, 14, 14);
     z-index: 100;
@@ -123,10 +123,17 @@ body {
     background-color: var(--black);
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width: 1165px){
+    #box{ height: 300px;}
+    
+}
+
+
+@media screen and (max-width:720px) {
     #nav_menu ul{
         font-size: 0.6rem;
         padding: 0.2em;
+        
     }
 
     #nav_menu ul li a {
@@ -134,32 +141,36 @@ body {
     }
 
     #box{
+        all: unset;
+        display: block;
         height: 200px;
+        background-color: var(--grey);
+        margin-bottom: 3%;
 
     }
 
     #banner{
-        background-image: url(/img/smallbanner.jpg);
+        background-image: url(/img/bannermedium.jpg);
     }
 
 }
 
 @media screen and (max-width:590px) {
     #nav_menu ul{
-        font-size: 0.6rem;
-        padding: 0.2em;
+        padding: 0.3em;
         width:30%;
         margin-left:1%;
     }
 
     #nav_menu ul li a {
-        padding: 0.2em;
+        padding: 0.05em;
     }
 
     #box{
         all:unset;
         display: block;
         height: 100px;
+        margin-bottom: 3%;
     }
 
     #banner {
