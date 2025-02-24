@@ -1,10 +1,11 @@
 :root {
-    --beige: rgb(245, 245, 219);
+    --beige: rgb(233, 233, 206);
     --gradient: linear-gradient(110deg, rgb(21, 19, 31), rgb(98, 53, 124));
     --black: #000000;
     --grey: #212020;
     --green: #2f7d40;
     --yellow: #c5c503;
+    --aqua: #00ffff;
 }
 
 html,

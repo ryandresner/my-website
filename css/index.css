@@ -3,33 +3,40 @@ main {
 }
 
 main#text>p {
+    width: 45%;
+    margin: 0 auto;
+    margin-top: 2%;
     color: var(--beige);
-}
-
-ul.links {
-    color: var(--beige);
-    font-size: 2em;
-    width: 5em;
-    text-align: center;
-    list-style-position: outside;
-    padding-left: 0 auto;
-    margin: auto;
-    margin-top: 1%;
+    font-size: max(2vmax, 16px);
 }
 
 .link {
-    color: var(--beige);
+    display: inline-block;
+    padding: 1em;
+    color: var(--aqua);
 }
 
-a {
-    display: block;
-    text-align: center;
-    margin: auto;
-    margin-left: auto;
+#link {
+    margin: 0 auto;
+    display: inline-block;
+    color: var(--aqua);
+    font-size: 2em;
 }
 
 a:hover {
-    color: rgb(32, 107, 48);
+    color: var(--green);
+}
+
+#here{
+    display: inline-flex;
+    color: var(--beige);
+}
+
+#here:hover {
+    color:var(--green);
+    transform: scale(1.1);
+    display: inline-block;
+    transition: transform 0.2s ease-in-out;
 }
 
 h2 {
@@ -44,11 +51,4 @@ h2 {
     font-stretch: condensed;
     border: .2em solid #292727;
     margin: 0 auto;
-}
-
-main>p {
-    margin: 5% 20% 0% 20%;
-    font-size: max(2vmax, 16px);
-
-
 }

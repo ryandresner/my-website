@@ -33,6 +33,7 @@ main.games{
     min-width: 250px;
     max-height: 350px;
     height: 300px;
+    background-color: #000000;
     border-radius: 10px;
     background-size: contain;
     background-position: center;
@@ -62,7 +63,7 @@ h3 a {
 h3 a:hover {
     filter: brightness(1.2);
     color: var(--yellow);
-    transform: scale(1.05);
+    transform: scale(1.2);
 }
 
 .enshrouded {
