@@ -122,3 +122,55 @@ body {
     color: #ffffff;
     background-color: var(--black);
 }
+
+@media screen and (max-width:680px) {
+    #nav_menu ul{
+        font-size: 0.6rem;
+        padding: 0.2em;
+    }
+
+    #nav_menu ul li a {
+        padding: 0.2em;
+    }
+
+    #box{
+        height: 200px;
+
+    }
+
+    #banner{
+        background-image: url(/img/smallbanner.jpg);
+    }
+
+}
+
+@media screen and (max-width:590px) {
+    #nav_menu ul{
+        font-size: 0.6rem;
+        padding: 0.2em;
+        width:30%;
+        margin-left:1%;
+    }
+
+    #nav_menu ul li a {
+        padding: 0.2em;
+    }
+
+    #box{
+        all:unset;
+        display: block;
+        height: 100px;
+    }
+
+    #banner {
+        width: 100%;
+        min-width: 300px;
+        height: 100%;
+        background-image: url(/img/smallbanner.jpg);
+        background-color: var(--grey);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 9999;
+    }
+}
