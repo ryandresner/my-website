@@ -1,6 +1,17 @@
 .text {
     text-align: center;
-    color: var(--green);
-    margin: 0 auto;
+    color:var(--green);
+}
 
+p {
+    
+    white-space: pre;
+    width: 20%;
+    height: 100%;
+    text-align: justify;
+    margin: 0px auto;
+    float: none;
+    display: table;
+    color: var(--beige);
+    font-size: max(2.5vmin, 18px );
 }

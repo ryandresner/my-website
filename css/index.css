@@ -6,8 +6,9 @@ main#text > p {
     width: 45%;
     margin: 0 auto;
     margin-top: 2%;
+    margin-bottom: 2%;
     color: var(--beige);
-    font-size: 3.5vmin;
+    font-size: max(2.5vmin, 18px );
 }
 
 .link {
@@ -45,7 +46,6 @@ h2 {
     max-width: 2vmax;
     background: var(--gradient);
     padding: 1vh;
-    margin-top: 1%;
     color: rgb(215, 190, 244);
     font-size: 4vmin;
     font-stretch: condensed;
