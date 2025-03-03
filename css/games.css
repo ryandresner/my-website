@@ -1,15 +1,8 @@
-.text {
-    text-align: center;
-    color: var(--green);
-    margin: 0 auto;
-}
-
-
-
-main.games{
+main.games {
     margin: 1% 5% 1% 5%;
 
 }
+
 .games-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -23,6 +16,7 @@ main.games{
     display: flex;
     flex-direction: column;
     align-items: center;
+
     position: relative;
     width: 100%;
 }
@@ -47,17 +41,17 @@ main.games{
 
 .enshrouded {
     background-image: url('../img/enshrouded.png');
-    
+
 }
 
 .minecraft {
     background-image: url('../img/minecraft.jpg');
-    
+
 }
 
 .palworld {
     background-image: url('../img/palworld.png');
-    
+
 }
 
 h3 {
@@ -80,13 +74,15 @@ h3 a:hover {
 }
 
 
+/*MEDIA QUERIES*/
+
 @media screen and (max-width: 900px) {
     .game {
         min-width: 200px;
         width: 70%;
         height: 40vh;
-        margin:0%;
-        
+        margin: 0%;
+
     }
 }
 
@@ -94,7 +90,7 @@ h3 a:hover {
     .game {
         min-width: 200px;
         height: 300px;
-        margin:0%;
+        margin: 0%;
     }
 }
 
@@ -104,7 +100,7 @@ h3 a:hover {
         min-width: 100px;
         width: 70%;
         height: 200px;
-        margin:0%;
-        
+        margin: 0%;
+
     }
 }
