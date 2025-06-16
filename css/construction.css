@@ -1,0 +1,14 @@
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5vh;
+}
+
+.center-img {
+    display: block !important;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+}
